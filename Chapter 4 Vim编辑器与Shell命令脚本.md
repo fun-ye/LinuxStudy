@@ -10,7 +10,7 @@
 
 切换方法：
 
-![image-20200311100951832](C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311100951832.png)
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/lunux-4-1.png)
 
 常用命令：
 
@@ -90,7 +90,7 @@ Shell脚本命令工作方式：
 
 $0对应的是当前Shell脚本程序的名称，$#对应的是总共有几个参数，$*对应的是所有位置的参数值，$?对应的是显示上一次命令的执行返回值，而$1、$2、$3……则分别对应着第N个位置的参数值
 
-![image-20200311150914819](C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311150914819.png)
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/20200618205033.png)
 
 ```
 # vim Example.sh
@@ -104,7 +104,7 @@ echo "第1个参数为$1，第5个为$5。"
 
 条件测试语法：成立返回0，否则返回其他随机数字
 
-![image-20200311151928898](C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311151928898.png)
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/20200618205108.png)
 
 条件测试语句4种：
 
@@ -172,7 +172,7 @@ echo "第1个参数为$1，第5个为$5。"
 
 ### 4.3.1 if条件测试语句
 
-![image-20200311161239447](C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311161239447.png)
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/4-4.png)
 
 ```
 # vim chkhost.sh
@@ -188,7 +188,7 @@ fi
 
 ### 4.3.2 for条件循环语句
 
-![image-20200311162235820](C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311162235820.png)
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/4-5.png)
 
 ```
 [root@linuxprobe ~]# vim Example.sh
@@ -215,11 +215,11 @@ done
 
 ### 4.3.3 while循环语句
 
-<img src="C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311164506303.png" alt="image-20200311164506303" style="zoom:80%;" />
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/4-6.png)
 
 ### 4.3.4 case条件测试语句
 
-<img src="C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311164730908.png" alt="image-20200311164730908" style="zoom: 80%;" />
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/4-7.png)
 
 ```
 [root@linuxprobe ~]# vim Checkkeys.sh
@@ -254,7 +254,7 @@ at > systemctl restart httpd
 
   创建、编辑计划任务的命令为“crontab -e”，查看当前计划任务的命令为“crontab -l”，删除某条计划任务的命令为“crontab -r”。
 
-<img src="C:\Users\方也\AppData\Roaming\Typora\typora-user-images\image-20200311170109293.png" alt="image-20200311170109293" style="zoom:80%;" />
+![](https://cdn.jsdelivr.net/gh/fun-ye/Figs/img/4-8.png)
 
 ```
 [root@linuxprobe ~]# crontab -e
